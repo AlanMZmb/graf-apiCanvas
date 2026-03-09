@@ -7,7 +7,10 @@ function draw() {
     const ctx = canvas.getContext("2d");
 
     ctx.beginPath();
-    ctx.arc(150,150,80,0,Math.PI);
+
+    ctx.moveTo(50,300);                 
+    ctx.bezierCurveTo(200,50,350,50,450,300);
+
     ctx.stroke();
 
 }
