@@ -7,10 +7,7 @@ function draw() {
     const ctx = canvas.getContext("2d");
 
     ctx.beginPath();
-    ctx.moveTo(50,50);
-    ctx.lineTo(200,50);
-    ctx.lineTo(200,200);
-
+    ctx.arc(150,150,80,0,Math.PI);
     ctx.stroke();
 
 }
